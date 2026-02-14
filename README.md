@@ -9,20 +9,27 @@
 ### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Fathimathu Sana] - [Kannur university campus,Mangattuparamb]
+- Member 2: [Shifa Hanna] - [Kannur university campus,Mangattuparamb]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://shebuilds-git-main-shifahanns-projects.vercel.app/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project is an anonymous group-chat and confession platform designed to help people express their emotions freely and safely. Many individuals struggle with feelings such as childhood trauma, loneliness, anxiety, and unspoken memories but hesitate to share them due to fear of judgment or exposure. Existing social platforms prioritize identity and visibility, which often discourages honest emotional expression.
+Our platform creates a privacy-first digital space where strangers can talk about how they feel without revealing their identity. Users can join emotion-based group chats or topics such as Childhood Trauma, Memories, or Healing, where everyone shares under complete anonymity. There are no usernames, profiles, likes, or followers—only thoughts and feelings.
+The application focuses on empathy rather than validation. Instead of likes or comments, users interact using supportive responses like “I hear you” or “You’re not alone.” Group chats are time-limited, ensuring conversations remain safe and temporary, reducing pressure and emotional risk.
+To maintain emotional safety, the platform includes AI-based moderation that filters harmful or abusive content and gently redirects users to support resources when necessary. Users can also create new topics, allowing conversations to evolve naturally based on shared emotional needs. A safe chat-sharing feature lets users share meaningful conversations externally without revealing any identities.
+Overall, the project aims to reduce emotional isolation by reminding users that even strangers can listen, understand, and support each other—when given a safe space to do so.]
 
 ### The Problem statement
-[What problem are you solving?]
+[Many people struggle with emotions and thoughts they cannot share openly due to fear of judgment, stigma, or lack of a safe space. There is no simple, anonymous platform focused on emotional expression and empathy without exposing identity.]
 
 ### The Solution
-[How are you solving it?]
+[We propose an anonymous confession platform that allows users to freely express their emotions without revealing any personal identity.
+The application creates an anonymous session for every user without requiring login, name, phone number, or email. Users can write and post their thoughts or confessions safely.
+To ensure a positive environment, an AI moderation system checks content for harmful or abusive language before publishing. Other users can respond only with empathy-based reactions such as supportive messages, not judgment or advice.
+This platform provides a safe, judgment-free space where users feel heard, understood, and emotionally relieved.]
 
 ---
 
