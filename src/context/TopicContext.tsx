@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { collection, onSnapshot, addDoc, query, orderBy, serverTimestamp } from 'firebase/firestore';
+import { collection, onSnapshot, addDoc, query, serverTimestamp } from 'firebase/firestore';
 import { db } from '../lib/firebase';
 import { Topic, topics as initialTopics } from '../lib/data';
 
@@ -27,14 +27,9 @@ export function TopicProvider({ children }: { children: ReactNode }) {
             console.log("Fetched topics from Firestore:", firebaseTopics);
 
             // Merge and sort client-side
-            const allTopics = [...firebaseTopics, ...initialTopics].sort((a, b) => {
-                // Sort by createdAt if available (firebase topics), or fallback to something else
-                // Since initialTopics don't have createdAt, they might end up last or first depending on logic
-                // Let's just put firebase topics first for now by implicit array order, 
-                // but if we want strict sorting we need a createdAt on all or explicit logic.
-                // For now, let's just rely on the array order (firebase first).
-                return 0;
-            });
+            // Merge topics. Firebase topics come first.
+            // Note: initialTopics lack createdAt, so strict time sorting isn't possible yet.
+            const allTopics = [...firebaseTopics, ...initialTopics];
 
             setTopics(allTopics);
         }, (error) => {
