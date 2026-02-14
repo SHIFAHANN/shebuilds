@@ -13,7 +13,7 @@ import { useTopics } from '../context/TopicContext';
 // Mock AI moderation list
 const BANNED_WORDS = ['hate', 'stupid', 'ugly', 'kill', 'attack'];
 
-export default function Cha() {
+export default function Chat() {
     const { topicId } = useParams();
     const navigate = useNavigate();
     const { user } = useUser();
